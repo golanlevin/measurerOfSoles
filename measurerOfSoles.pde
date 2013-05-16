@@ -1,3 +1,13 @@
+// Compiled for Processing 2.0b8 
+// Golan Levin, 16 May 2013
+// 
+// This program loads an image file which is supposed to be 
+// a sharpie tracing of the sole of a shoe. 
+// The program extracts the contour of the shoe sole, 
+// and prints out the length and width of the shoe. 
+// It is rotation-invariant, thus tolerant to errors of rotation. 
+//
+
 import javax.swing.*;
 import javax.swing.filechooser.FileFilter;
 import java.util.*;
